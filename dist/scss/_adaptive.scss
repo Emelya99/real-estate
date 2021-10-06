@@ -1,0 +1,319 @@
+@media(max-width:1440px){
+    .why-villa,
+    .projects,
+    .footer {
+        padding: 150px 0;
+    }
+    .header{
+        padding: 30px 0;
+        &__menu{
+            margin-right: 20px;
+        }
+        &__link{
+            margin: 0 20px;
+        }
+    }
+    .welcome{
+        margin-top: -100px;
+        padding: 220px 0px 150px;
+    }
+    .gallery__content{
+        flex: 33.33%;
+    }
+}
+
+@media(max-width:1024px){
+    .title{
+        font-size: 40px;
+        line-height: 1.1em;
+    }
+    .why-villa,
+    .projects,
+    .footer {
+        padding: 100px 0;
+    }
+    .welcome{
+        padding: 170px 0px 100px;
+        &__wrapper{
+            max-width: 550px;
+        }
+        &__title{
+            font-size: 66px;
+            line-height: 1.2em;
+            margin-bottom: 45px;
+        }
+    }
+    .projects{
+        &__content{
+            width: 100%;
+            &-img{
+                margin-bottom: 20px;
+            }
+            &-title{
+                font-size: 30px;
+                line-height: 1.2em;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+@media(max-width:920px){
+    .header{
+        &__wrapper{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &__content{
+            margin-bottom: 14px;
+        }
+    }
+    .welcome{
+        margin-top: -140px;
+        padding: 210px 0px 100px;
+    }
+    .why-villa{
+        &__title{
+            margin-bottom: 60px;
+        }
+        &__content{
+            flex-wrap: nowrap;
+            margin-bottom: 40px;
+            &:last-child{
+                margin: 0;
+            }
+            &-text{
+                width: 100%;
+                padding-top: 10px;
+            }
+        }
+    }
+    .projects{
+        padding: 100px 0px 0px 0px;
+        &__content{
+            &-title{
+                font-size: 24px;
+                line-height: 1.2em;
+            }
+        }
+        &__box{
+            margin-bottom: 60px;
+        }
+    }
+    .video__text{
+        margin-bottom: 30px;
+    }
+    .gallery__content{
+        flex: 50%;
+    }
+    .footer{
+        min-height: auto;
+        background-image: none;
+        background: #ECF4FA;
+        &__agent{
+            margin-bottom: 60px;
+            &-body{
+                padding: 0;
+            }
+            &-title{
+                margin-bottom: 30px;
+            }
+            &-text{
+                margin-bottom: 30px;
+            }
+            &-worked{
+                margin-bottom: 30px;
+            }
+        }
+        &__member{
+            margin-bottom: 30px;
+        }
+        &__contact{
+            &-subtitle{
+                margin-bottom: 30px;
+            }
+            &-title{
+                margin-bottom: 30px;
+            }
+        }
+        &__checkbox{
+            margin-top: 0;
+            &-text{
+                margin-top: -34px;
+            }
+        }
+        &__form-btn{
+            margin-top: 30px;
+        }
+        &__copyright{
+            margin-top: 70px;
+        }
+    }
+    .footer__copyright-desktop{
+        display: none;
+    }
+    .footer__copyright-mobile{
+        display: block;
+    }
+    .popup__item + .popup__item {
+        margin-top: 40px;
+    }
+    #toTop{
+        width: 50px;
+        height: 50px;
+        right: 15px;
+        bottom: 15px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:767px){
+    .why-villa,
+    .footer {
+        padding: 70px 0;
+    }
+    .projects{
+        background-size: auto;
+        padding: 70px 0px 30px 0px;
+        &__box{
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media(max-width:620px){
+    .title{
+        font-size: 36px;
+    }
+    .header{
+        padding: 15px 0;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__content{
+            margin-bottom: 14px;
+        }
+        &__info{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .link-hover:after{
+        bottom: 3px;
+    }
+    .btn{
+        font-size: 20px;
+        line-height: 26px;
+        width: 200px;
+        padding: 15px 10px;
+    }
+    .welcome{
+        margin-top: -162px;
+        padding: 212px 0px 70px;
+        background-position: top top;
+        background-size: auto;
+        &__wrapper{
+            width: 100%;
+        }
+        &__title{
+            font-size: 50px;
+        }
+    }
+    .why-villa{
+        background-size: auto;
+        &__title{
+            margin-bottom: 40px;
+        }
+        &__content{
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            &-title{
+                width: 100%;
+                & br{
+                    display: none;
+                }
+            }
+            &-text{
+                width: 100%;
+                padding-top: 15px;
+            }
+        }
+    }
+    .projects{
+        &__box{
+            flex: 50%;
+        }
+    }
+    .footer{
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__member-image {
+            margin-right: 20px;
+        }
+        &__checkbox{
+            &-text{
+                width: 100%;
+                margin: 0;
+            }
+        }
+        &__form{
+            &-checkbox{
+                display: flex;
+            }
+            &-item{
+                padding: 9px 20px 10px 20px;
+            }
+        }
+    }
+}
+
+@media(max-width:425px){
+    .title{
+        font-size: 30px;
+    }
+    .header{
+        &__wrapper{
+            display: block;
+        }
+        &__content{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+        &__menu{
+            margin: 0;
+        }
+    }
+    .welcome{
+        &__title{
+            font-size: 38px;
+            margin-bottom: 30px;
+        }
+        &__text{
+            margin-bottom: 25px;
+        }
+    }
+    .projects{
+        background-image: none;
+        &__box{
+            flex: 100%;
+        }
+        &__content-title br{
+            display: none;
+        }
+    }
+    .video__text{
+        margin-bottom: 15px;
+    }
+    .gallery__content{
+        flex: 100%;
+    }
+    .popup__item + .popup__item {
+        margin-top: 30px;
+    }
+    .popup__link.link-hover::after {
+        bottom: 4px;
+    }
+}

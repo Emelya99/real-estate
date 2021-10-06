@@ -1,0 +1,108 @@
+html{
+	scroll-behavior:smooth;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body{
+	font-family: 'DM Sans', sans-serif;
+	font-size: 20px;
+	line-height: 33px;
+	font-weight: 400;
+	color: #222222;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title{
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 53px;
+	letter-spacing: -1.92px;
+	color: inherit;
+}
+
+.btn{
+	display: block;
+	width: 270px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	color: #222222;
+	background-color: #FFFFFF;
+	border-radius: 35px;
+	padding: 19px 15px;
+	transition: all 0.5s;
+}
+
+.btn:hover{
+	color: #FFFFFF;
+	background: #222222;
+}
+
+a{
+	color: inherit;
+}
+
+.link-hover{
+	color: inherit;
+	position: relative;
+	text-decoration: none;
+}
+
+.link-hover:after{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #222222;
+	transition: width 0.3s ease-out;
+}
+
+.link-hover:hover:after{
+	width: 100%;
+}
+
+.link-hover-out{
+	position: relative;
+}
+
+.link-hover-out:after{
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	width: 100%;
+	height: 1px;
+	background-color: #222222;
+	transition: width 0.3s ease-out;
+}
+
+.link-hover-out:hover:after{
+	width: 0;
+}
