@@ -179,6 +179,12 @@
             margin-bottom: 40px;
         }
     }
+    .popup__close {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        margin: 0;
+    }
 }
 
 @media(max-width:620px){
